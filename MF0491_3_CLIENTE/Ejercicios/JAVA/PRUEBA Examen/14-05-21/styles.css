@@ -1,0 +1,77 @@
+.validacionCss{
+    color:rgb(89, 250, 89)
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: slateblue;
+    background: rgb(243, 180, 190);
+}
+.CX{
+    background: rgb(201, 229, 230);
+    color: rgb(2, 2, 90);
+}
+footer{
+    padding: 10px;
+    margin: 15px;
+    border: solid hsl(80, 50, 50);
+}
+.WWW.ZZZ{
+    color:hsla(100, 60, 60, 0.5)
+}
+div {
+    padding: 5px;
+    margin: 5px;
+}
+a {
+    color: white;
+    font-size: 25px;
+}
+a:link{
+    color: turquoise;
+}
+a:visited{
+    color: rgb(160, 180, 178);
+}
+a:hover{
+    color: rgb(252, 255, 93);
+}
+a:active{
+    color: rgb(64, 128, 224);
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+nav li{
+    text-align: center;
+    display: inline;
+    color: white;
+    bottom: 5px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #333;
+  }
+  
+nav li a {
+    padding: 1pc;
+    margin: 1pc;
+    border-right: 1px solid;
+    border-color: black;
+    color: white;
+    background-color: #333;
+    text-decoration: none;
+      }
+footer{
+      margin-left: 40px;
+        background: rgb(219, 11, 219);
+      color:rgb(0, 0, 0);
+  }
+header div{
+    display: inline-block;
+}

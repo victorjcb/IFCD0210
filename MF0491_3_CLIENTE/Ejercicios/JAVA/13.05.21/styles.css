@@ -1,0 +1,12 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: rgb(180, 15, 70);
+    background: pink;
+}
+table{
+    border:rgb(36, 1, 13) 5px solid;
+    border-spacing: 5px;
+    border-collapse: collapse;
+
+}

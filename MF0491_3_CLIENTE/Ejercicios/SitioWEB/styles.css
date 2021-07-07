@@ -1,0 +1,15 @@
+h1 {color: red; font-size: 45px; font-family: Century Gothic;}
+h2 {color: red; font-size: 30px; font-family: Century Gothic;}
+li {font-style:inherit; margin-left: 50mm; color: black; font-size: 16px; font-family: Century Gothic;}
+.titulo{font-weight:40px bolder; background-color: rgb(82, 105, 236); color: rgb(255, 255, 255); font-size: 24px; font-family: Century Gothic};
+img {border-color:rgb(82, 105, 236); border-width: 10px; border-style: solid; border-radius: 50%; width: 50px};
+.nombrelogo {font-weight:40px; color: black; font-size: 60px; vertical-align: bottom; font-family: Century Gothic};
+.comentario {color:rrgb(82, 105, 236)}
+a{color:olive}
+a:focus{color:red}
+a:active{color:lightgreen}
+a:hover{color:forestgreen}
+a:visited{color:gray}
+a:before{color:olive}
+img:hover{border-color:rgb(82, 105, 236); border-width: 20px; border-style: solid; border-radius: 29%; width: 180px;}
+li:hover{font-weight: bolder; font-size: 24px;}

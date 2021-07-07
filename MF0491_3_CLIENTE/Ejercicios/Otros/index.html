@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="decription" content="Examen Frontend">
+    <meta name="keywords" content="Exament, HTML, CSS, JavaScript">
+    <meta name="author" content="Victor Cuesta">
+    <title>Examen de Victor Cuesta</title>
+    <link rel="shortcut icon" href="images/faviconVictor.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+
+    </header>
+<!-- Navegacion-->
+    <div id="navegacion">
+        <nav>
+          <ul class="navegacion">
+            <li class="navegacion"><a href="#footer">Pie</a></li>
+            <li class="navegacion">
+              <a href="http://www.google.es" target="_blank">Google</a>
+            </li>
+            <li class="navegacion">
+              <a href="mailto:bjlanza@gmail.com">Correo</a>
+            </li>
+            <li class="navegacion"><a href="#">Enlace Vacio</a></li>
+          </ul>
+        </nav>
+      </div>
+<!-- Tabla-->
+<table class="tabla">
+  <thead>  
+    <tr>
+      <th>Vcabecera1</th>		
+      <th>Vcabecera2</th>		
+      <th>Vcabecera3</th>
+      <th>Vcabecera4</th>	
+      <th>Vcabecera5</th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <tr>	
+      <td>Item H1,V1</td>		
+      <td>Item H1,V2</td>	
+      <td>Item H1,V3</td>	
+      <td>Item H1,V4</td>
+      <td>Item H1,V5</td>				
+    </tr>
+    <tr>	
+      <td>Item H2,V1</td>		
+      <td>Item H2,V2</td>	
+      <td>Item H2,V3</td>	
+      <td>Item H2,V4</td>
+      <td>Item H2,V5</td>				
+    </tr>
+    <tr>	
+      <td>Item H3,V1</td>		
+      <td>Item H3,V2</td>	
+      <td>Item H3,V3</td>	
+      <td>Item H3,V4</td>
+      <td>Item H3,V5</td>				
+    </tr>
+    <tr>	
+      <td>Item H4,V1</td>		
+      <td>Item H4,V2</td>	
+      <td>Item H4,V3</td>	
+      <td>Item H4,V4</td>
+      <td>Item H4,V5</td>				
+    </tr>
+    <tr>	
+      <td>Item H5,V1</td>		
+      <td>Item H5,V2</td>	
+      <td>Item H5,V3</td>	
+      <td>Item H5,V4</td>
+      <td>Item H5,V5</td>				
+    </tr>
+  </tbody>
+  
+  </table>
+<pre>  Mientras se sienta que se ríe el alma,
+  sin que los labios rían;
+  mientras se llore, sin que el llanto acuda
+  a nublar la pupila;
+  mientras el corazón y la cabeza
+  batallando prosigan,
+  mientras haya esperanzas y recuerdos,
+  ¡habrá poesía!
+   
+  <em><cite>Gustavo Adolfo Becquer</cite></em>
+</pre>
+<!-- Formulario-->      
+      <div id="form">
+        <form action="post">
+          <fieldset>
+            <legend>Datos Personales</legend>
+            <input type="text" name="nombre" id="fname" required /><br />
+            <input type="text" name="apellio" id="fsurname" value="Borja" /><br />
+            <textarea
+              name="areatexto"
+              id="fareatext"
+              cols="30"
+              rows="10"
+              autofocus
+            ></textarea
+            ><br />
+            <input type="tel" name="phone" id="fphone"><br>
+            <input type="file" name="fichero" id="ffile"><br>
+            <label for="genero">Sexo</label>
+            <input type="radio" name="genero" id="fmasc" value="masculino">
+            <input type="radio" name="genero" id="ffem" value="femenino">
+            <input type="radio" name="genero" id="fother" value="nc"><br>
+          </fieldset>
+          <label for="fperro">Perro</label>
+          <input type="checkbox" name="mascotas" id="fperro" value="perro">
+          <label for="fgato">Gato</label>
+          <input type="checkbox" name="mascotas" id="fgato" value="gato">
+          <input type="checkbox" name="mascotas" id="fotros"value="otros"><br>
+          <label for="fcoche">Coche</label>
+          <select name="coche" id="fcoche">
+            <option value="ferrari">Ferrari</option>
+            <option value="lamborgini">Lamborgini</option>
+            <option value="porsche" selected>Porsche</option></select
+          ><br />
+          <input type="password" name="password" id="fpass"><br>
+          <input type="submit" value="Enviar"><br>
+        </form>
+      </div>
+
+    <div id="cuadroAzul">
+    MULTIMEDIA
+    <br>_______________________________<br><br>
+    Imagen local<img width="400" src="images/bandera.png" alt="Bandera de León."><br>
+    <br>_______________________________<br><br>
+    Imagen externa<img width="400" alt="Externa" height="220" src="https://fotos.hoteles.net/articulos/catedral-de-leon-espana-2416-1.jpg" alt="Catedral de León."><br>
+    <br>_______________________________<br><br>
+    Audio<audio src="audio/himnoLeon.mp3" alt="Himno de León." controls></audio><br>
+    <br>_______________________________<br><br>
+      Video<iframe width="400" src="https://www.youtube.com/embed/FyPvFOMGxuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+    </div>
+<!-- Footer-->
+      <footer id="footer">
+        <address>
+          <strong>Dirección:</strong> Calle de las Campanillas 26<br>
+          <strong>Poblacion:</strong> Leon<br>
+          <strong>C.P.:</strong> 24008<br>
+          <strong>Provincia:</strong> Leon<br>
+          <strong>Telefono</strong> 999 888 777<br>
+        </address>
+      </footer>
+<!-- Javasript-->
+      <div id="javascript">
+        <div id="cuadroAzul">
+          Mis animales favoritos:
+          <ol id="rellenarLista"></ol>
+        </div><br>
+     
+    <!-- Funcion boton comparar numeros--> 
+      <div id="cuadroAzul">
+        <button id="button">Funcion 2</button>
+      </div><br>
+    <!-- Galeria-->
+    <div id="cuadroAzul">  
+        <div id="gallery">
+          <div>Item 1</div>
+          <div>Item 2</div>
+          <div>Item 3</div>
+          <div>Item 4</div>
+          <div>Item 5</div>
+          <div>Item 6</div>
+          <div>Item 7</div>
+          <div>Item 8</div>
+          <div>Item 9</div>
+        </div>
+      </div>
+    </div><br>
+      <script src="scripts.js"></script>
+    </body>
+  </html>    

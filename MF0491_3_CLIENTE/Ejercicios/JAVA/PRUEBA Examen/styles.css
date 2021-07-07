@@ -1,0 +1,65 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: powderblue;
+    color: rgb(17, 46, 131);
+}
+M{
+    color: rgb(100, 64, 0);
+}
+.CX { 
+    color: #000;
+}
+footer {
+    padding: 10px;
+    margin: 10px;
+    border: soldid;
+    border-color: purple;
+}
+a {
+    color: red;
+}
+a:link{
+    color: #0ff;
+}
+a:visited{
+    color:rgb(126, 19, 126);
+}
+a:hover{
+    color: hsla(20, 50, 50, alpha);
+}
+a:active{
+    color: orchid;
+}
+.tg  {border-collapse:collapse;border-color:#bbb;border-spacing:0;}
+.tg td{background-color:#E0FFEB;border-color:#bbb;border-style:solid;border-width:1px;color:#594F4F;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#9DE0AD;border-color:#bbb;border-style:solid;border-width:1px;color:#493F3F;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-996f{background-color:#C2FFD6;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-q8ud{background-color:#C2FFD6;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: rgb(124, 174, 248);
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(238, 209, 79);
+  }
