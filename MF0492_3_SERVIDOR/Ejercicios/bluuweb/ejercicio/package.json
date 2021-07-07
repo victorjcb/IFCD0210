@@ -1,0 +1,12 @@
+{
+  "name": "ejercicio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon"
+  },
+  "author": "",
+  "license": "ISC"
+}
